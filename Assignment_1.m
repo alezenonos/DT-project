@@ -1,0 +1,43 @@
+tic
+%  load cleandata_students.mat
+ load noisydata_students.mat
+% trees = CREATE_TREES(x,1:length(x(1,1:end)),y);
+% 
+% classnames = {'Anger','Disgust', 'Fear', 'Happiness', 'Sadness', 'Surprise' };
+% for i = 1:6
+%     DrawDecisionTree(trees{i},classnames{i});
+% end
+% 
+% savefile = 'Trees.mat';
+% save(savefile, 'trees' )
+
+% meanError = zeros(5,3);
+% 
+% for i = 1:100
+%     i
+%     [meanError1 meanError2 meanError3 meanError4 recall precision fmeasure matrix]= CROSS_VALIDATION(x,y,10)
+%     %     meanError(i,3) = newCV(x,y,10);
+%     meanError1cell{i} =meanError1;
+%     meanError2cell{i} =meanError2;
+%     meanError3cell{i} =meanError3;
+%     meanError4cell{i} =meanError4;
+%     recallcell{i} = recall;
+%     precisioncell{i} = precision;
+%     fmeasurecell{i} = fmeasure;
+%     savefile = 'NewNoisyResults.mat';
+%     save(savefile, 'meanError1cell', 'meanError2cell','meanError3cell','meanError4cell','recallcell', 'precisioncell', 'fmeasurecell' )
+%     
+% end
+% binaryTarget = ChangeData(y,3);
+% meanErrorTree = estimateErrorTree(x,binaryTarget,1:45,10)
+
+meanErrorTree = zeros(1,6);
+for j=1:6
+    binaryTarget = ChangeData(y,j);
+%     length(find(binaryTarget == 1))
+    meanErrorTree(1,j) = estimateErrorTree(x,binaryTarget,1:length(x(1,:)),10);
+end
+meanErrorTree
+% plot(meanError(:,1));
+
+toc

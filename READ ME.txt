@@ -1,0 +1,26 @@
+Loipon, theloyme ta parakatw
+
+REPORT
+-------
+Eikones dentrwn
+Motivation gia kathe texniki. Giati epileksame na kanoyme tin kathe texniki sta dedomena ? Poia i logiki ?
+Flowchart na mpoyn 
+Sygkrisi methodwn sta clean kai noisy data. Ayto tha einai apo ta grafimata poy tha bgoyme otan treksoyme ton alg 100 fores
+
+KWDIKAS
+--------
+Sxolia se kapoia arxeia
+theloyme mia methodo confusionMatrix = testTrees(Trees, Data) 
+ - Apo tis texnikes poy kaname tha epileksoyme tin kalyteri kai ayti tha xrisimopoieitai gia na kanei train nea data
+ - sti methodo ayti tha valoyme ena vector 1x6 poy analoga me tin texniki poy tha epileksoyme tha exoyme kai to vector
+     p.x. an poyme oti epilegoyme tin prwti tote tha exoyme ena vector prob = [ 0.2 0.3 ...] kai tha to xrisimopoioyme 
+     gia predict sta nea data. To vector tha to exoyme fix mesa stin synartisi
+
+Poly symantiko na doyme oti trexei to programma sto ergastirio!!!!!
+
+I apantisi gia to flowchart einai i parakatw :
+
+
+Regarding the flow chart, it should explain how you designed your code. In other words, a simple flow from the input to 
+the output showing the main processing blocks about which we will talk during the interview. If you have any concerns 
+about this, we can talk tomorrow during the CBC hours.

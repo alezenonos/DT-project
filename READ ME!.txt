@@ -1,0 +1,25 @@
+APOMENOYN:
+2) Report-> pws tha to kanoume telika? sto google drive na 3ekinisoume? pws 3ekiname? ides afta pou egrapsa? an den vgazoun noima na ta dieukrinisoume. Epipleon theli kai allo grapsimo etsi? perigrafi twn flowcharts isos? ti allo sigkekrimena theli?
+
+Gia ta flowchart as doyme ti tha mas apantisoyn.. Episis, theloyme grafimata na symperilavoyme
+Akomi, prepei na doyme giati sto ena emotion to branch toy dentroy exei megalo vathos gia na eksigisoyme giati symbainei ayto
+To report to fantazomai kapos etsi:
+a) Prwta ta dentra(me grafimata toys kai eksigiseis ekei poy xreiazetai), 
+b) Meta to cross validation (pos to kaname) 
+b.1) Tis texnikes poy exoyme xrisimopoiisei kai eksigisei giati i mia einai kalyteri apo tin alli
+b.2) Pithanos grafima me tis treis texnikes kai ta lathoi poy bgazei i kathe mia
+c) To pruning
+
+2.1) Graphs
+2.2) Sygkrisi methodwn me diagrammata
+
+3) Final test ton kwdika
+
+[SOLVED] Episis, to prunning den kserw ti kanei telika.. Nomiza oti ekane kati sygkekrimeno alla einai telika allo.
+Evala sxolia stin synartisi gia to ti kanei kathe methodos tis matlab poy xrisimopoioyn. 
+Deite to kai eseis giati den to kserw telika.. Gia to pruning leei sto vivlio kapia pragmata! I geniki idea ine afto pou ipes oti dld kovoun ta dentra gia na glitosoun to overfitting. tha tou ri3o mia matia se ligo.
+
+
+Re sto DECISION_TREE_LEARNING to prwto if ti kani? ti ine to print dsds? 
+
+[NO NEED]An thelete mporoyme na synantithoyme gia kana 2wro to poly na to doyme
